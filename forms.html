@@ -9,42 +9,57 @@
 
 <body>
 
-    <form>
+    <form method="GET">
+        <fieldset>
+            <legend>PERSONAL INFORMATION </legend>
+            <h3>Presence</h3>
 
-        <h3>Presence</h3>
+            <!-- label for screen reader users
+            for of label = id of input
+            -->
 
-        <!-- label for screen reader users
-        for of label = id of input
-        -->
+            <label for="fname">First Name : </label>
+            <input type="text" id="fname" required> <br>
+            <label for="lname">Last Name : </label>
+            <input type="text" id="lname" required> <br>
+            <label for="eml">Email: </label>
+            <input type="email" id="eml" required ><br>
+            <label for="pas">Password: </label>
+            <input type="password" id="pas" required min="5">
 
-       <label for="fname">First Name : </label>
-       <input type="text" id="fname" required> <br>
-       <label for="lname">Last Name : </label>
-       <input type="text" id="lname" required> <br>
-       <label for="eml">Email: </label>
-       <input type="email" required >
+            <h3>Some Info</h3>
 
-       <h3>Some Info</h3>
+            <label for="dtbth">Date of birth : </label>
+            <input type="date" id="dtbth"><br><br>
 
-       <label for="dtbth">Date of birth : </label>
-       <input type="date" id="dtbth"><br><br>
+            <label for="favlang">HTML</label>
+            <input type="radio" id="favlang" name = "fav"><br>
+            <label for="favlang">CSS</label>
+            <input type="radio" id="favlang" name = "fav"><br>
+            <label for="favlang">JS</label>
+            <input type="radio" id="favlang" name = "fav"><br><br>
 
-       <label for="favlang">HTML</label>
-       <input type="radio" id="favlang" name = "fav"><br>
-       <label for="favlang">CSS</label>
-       <input type="radio" id="favlang" name = "fav"><br>
-       <label for="favlang">JS</label>
-       <input type="radio" id="favlang" name = "fav"><br><br>
+            <label for="favlang">HTML</label>
+            <input type="checkbox" id="favlang" name = "fav"><br>
+            <label for="favlang">CSS</label>
+            <input type="checkbox" id="favlang" name = "fav"><br>
+            <label for="favlang">JS</label>
+            <input type="checkbox" id="favlang" name = "fav"><br><br>
 
-       <label for="favlang">HTML</label>
-       <input type="checkbox" id="favlang" name = "fav"><br>
-       <label for="favlang">CSS</label>
-       <input type="checkbox" id="favlang" name = "fav"><br>
-       <label for="favlang">JS</label>
-       <input type="checkbox" id="favlang" name = "fav"><br><br>
+            <label for="cars">What is your CAR : </label>
+            <select name="cars" id="cars" multiple>
+                    <option value="volvo">VOLVO</option>
+                    <option value="audi" selected>AUDI</option>
+                    <option value="fiat">FIAT</option>
+            </select><br><br><br>
 
-       <input type="submit">
-       <input type="reset">
+            <label for="cmt">Any Comment : </label>
+            <textarea id="cmt" cols="30" rows="10" placeholder="comment"></textarea>
+
+
+            <input type="submit">
+            <input type="reset">
+        </fieldset>
     </form>
 
 </body>
