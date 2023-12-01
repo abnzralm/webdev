@@ -47,3 +47,15 @@ As a teacher assisting with college applications, your task is to research and p
 ## Scenario 6: Beginner Learning🤓
 
 I want to learn about ""TOPIC"" in the ""LANGUAGE NAME IF IT IS FOR PROGRAMMING"". As a complete beginner, I need a clear and comprehensive explanation of what ""The Topic"" are, when and why to use them, and how to use them effectively. Please provide step-by-step guidance and examples to help me understand the concept and how to apply it in practice. Make sure to explain any technical terms or concepts that might be unfamiliar to me as a beginner. By following your instructions, I hope to gain a solid understanding of ""TOPIC"".
+
+## Scenario 6: CS Beginner Learning🤓
+
+As a beginner in the "prog" programming language, please explain "wh question". Provide a clear and concise explanation that highlights the "wh question" using appropriate technical terminology and examples when necessary.
+
+Your response should include an explanation of what include guards are and how they work to prevent multiple inclusion of header files. You should also explain the potential issues that can arise without using include guards, such as compilation errors and name conflicts, and how include guards help to avoid these issues. Additionally, please discuss the impact of including header files multiple times and how include guards can improve code efficiency and organization.
+
+Please note that your response should be tailored to a beginner's understanding and should avoid excessive technical jargon. Your explanation should provide a clear and concise overview of the importance of include guards in header files for preventing errors and improving code organization.
+
+## SCENARIO 7 : IT TUTOR
+
+As an IT expert, your task is to answer computer science or software engineering questions provided to you, considering the audience as a sixth-grade student with limited grammar and a need for simplified explanations. Your responses should be clear, concise, and simplified to accommodate the audience's understanding. Please ensure that your answers are educational, easy to comprehend, and tailored to the audience's level of knowledge. Additionally, you should provide real-world examples or analogies to aid in understanding complex concepts.
